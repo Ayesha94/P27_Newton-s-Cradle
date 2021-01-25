@@ -43,8 +43,8 @@ function draw() {
   //rectMode(CENTER);
   background(0);
 	fill("white")
-	textSize(14)
-	text("Press left arrow key to move left bob towards left", 100, height-30)
+	textSize(20)
+	text("Press left arrow key to move left bob towards left", 150, height-50)
 roof.display();
 bobObject1.display();
  bobObject2.display(); 
