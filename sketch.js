@@ -42,6 +42,9 @@ function draw() {
 	Engine.update(engine);
   //rectMode(CENTER);
   background(0);
+	fill("white")
+	textSize(14)
+	text("Press left arrow key to move left bob towards left", 100, height-30)
 roof.display();
 bobObject1.display();
  bobObject2.display(); 
